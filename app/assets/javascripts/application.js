@@ -18,8 +18,13 @@
 //= require bootstrap/collapse
 $(function(){
     $("#element").typed({
-      strings: ["Hey dude you look good", "Hey dude you look good, nohomo."],
-      typeSpeed: .8
+     strings: ["Hey dude you look good ^1000", "Hey dude you look good, nohomo."],
+     showCursor: true,
+     cursorChar: "|",
+      typeSpeed: 7,
+
+
+
     });
 
     $("a[href='#bottom']").click(function() {

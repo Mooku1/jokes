@@ -8,11 +8,14 @@
   background-color: #f9f9f9;
 }
 
-
-
-.btn {
- margin-top: 3px;
+ a:hover {
+  text-decoration: none;
+  color: #0c84e4;
+ }
+a {
+ color: white;
 }
+
 
 #input {
  margin: 0 auto;
@@ -44,6 +47,8 @@ list-style-type: none;
  background-color: #0c84e4;
  color: white;
  width: 100%;
- height: 300px;
- font-size: 20px;
+ height: 300px; margin-top: 20px;
+  position: relative;
+  top: 5px;
+  font-size: 15px;
 }

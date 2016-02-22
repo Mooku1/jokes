@@ -1,0 +1,2 @@
+module HomosHelper
+end

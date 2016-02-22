@@ -55,6 +55,13 @@ list-style-type: none;
 .fuck {
  font-size: 10px;
 }
+@media screen and (max-width: 500px) {
+ #conatiner-custom {
+  width: 100%;
+  height: 380px;
+ }
+
+}
 
 .typed-cursor
 {

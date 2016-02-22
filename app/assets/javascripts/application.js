@@ -14,6 +14,8 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree
+//= require bootstrap/dropdown
+//= require bootstrap/collapse
 $(function(){
     $("#element").typed({
       strings: ["Hey dude you look good", "Hey dude you look good, nohomo."],
